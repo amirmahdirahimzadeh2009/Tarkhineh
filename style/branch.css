@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: vazir-bold;
+  src: url(../fonts/Vazir-Bold.woff2);
+}
+@font-face {
+  font-family: vazir-light;
+  src: url(../fonts/Vazir-Light.woff2);
+}
+@font-face {
+  font-family: vazir-medium;
+  src: url(../fonts/Vazir-Medium.woff2);
+}
+@font-face {
+  font-family: vazir-thin;
+  src: url(../fonts/Vazir-Thin.woff);
+}
+@font-face {
+  font-family: vazir;
+  src: url(../fonts/Vazir.woff);
+}
+.container {
+  padding: 38px 108px;
+}
+
+body {
+  direction: rtl;
+}
+body main .hero header {
+  width: 100%;
+  height: 115px;
+}
+body main .hero header nav {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .hero header nav .icons {
+  margin-right: 166px;
+}
+body main .hero header nav ul {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+body main .hero header nav ul li {
+  display: flex;
+  align-items: center;
+}
+body main .hero header nav ul li a {
+  font-family: vazir-medium;
+  color: #717171;
+}
+body main .hero header nav ul li .navs {
+  font-family: vazir-medium;
+  color: #417f56;
+  border-bottom: 2px solid #417f56;
+  font-size: 20px;
+}
+body main .hero .box {
+  background-image: url(../images/Slider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 336px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  gap: 70px;
+}
+body main .hero .box h1 {
+  color: #e5f2e9;
+  font-family: vazir-bold;
+  font-weight: 900;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+body main .hero .box .box2 {
+  width: 184px;
+  height: 40px;
+  background-color: #417f56;
+  color: #e5f2e9;
+  border-radius: 8px;
+  font-family: vazir-medium;
+  padding: 6px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: none;
+  font-size: 16px;
+}
+body main .hero p {
+  color: #353535;
+  font-family: vazir-bold;
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+}
+body main .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+body main .menu .card1 {
+  width: 288px;
+  height: 433px;
+  border: 2px solid #cbcbcb;
+  border-radius: 8px;
+}
+body main .menu .card1 img {
+  width: 100%;
+  height: 256px;
+}
+body main .menu .card1 h2 {
+  font-family: vazir-bold;
+  text-align: center;
+}
+body main .menu .card1 button {
+  width: 255px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #417f56;
+  border: none;
+  color: #e5f2e9;
+  font-family: vazir-light;
+}
+body main .menu .card2 {
+  width: 288px;
+  height: 433px;
+  border: 2px solid #cbcbcb;
+  border-radius: 8px;
+}
+body main .menu .card2 img {
+  width: 100%;
+  height: 256px;
+}
+body main .menu .card2 h2 {
+  font-family: vazir-bold;
+  text-align: center;
+}
+body main .menu .card2 button {
+  width: 255px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #417f56;
+  border: none;
+  color: #e5f2e9;
+  font-family: vazir-light;
+}
+body main .menu .card3 {
+  width: 288px;
+  height: 433px;
+  border: 2px solid #cbcbcb;
+  border-radius: 8px;
+}
+body main .menu .card3 img {
+  width: 100%;
+  height: 256px;
+}
+body main .menu .card3 h2 {
+  font-family: vazir-bold;
+  text-align: center;
+}
+body main .menu .card3 button {
+  width: 255px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #417f56;
+  border: none;
+  color: #e5f2e9;
+  font-family: vazir-light;
+}
+body main .menu .card4 {
+  width: 288px;
+  height: 433px;
+  border: 2px solid #cbcbcb;
+  border-radius: 8px;
+}
+body main .menu .card4 img {
+  width: 100%;
+  height: 256px;
+}
+body main .menu .card4 h2 {
+  font-family: vazir-bold;
+  text-align: center;
+}
+body main .menu .card4 button {
+  width: 255px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #417f56;
+  border: none;
+  color: #e5f2e9;
+  font-family: vazir-light;
+}

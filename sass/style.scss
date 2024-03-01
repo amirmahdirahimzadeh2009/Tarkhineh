@@ -1,0 +1,396 @@
+@use "./reset" as *;
+@use "./typgraphy" as *;
+@use "./objects" as *;
+@use "./variables" as *;
+body {
+  direction: rtl;
+  main {
+    .hero {
+      header {
+        nav {
+          width: 100%;
+          height: 33px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .icons {
+            margin-right: 166px;
+          }
+
+          ul {
+            width: 100%;
+            height: 33px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            li {
+              display: flex;
+              align-items: center;
+
+              a {
+                font-family: vazir-medium;
+                color: $nav-color;
+              }
+              .navs {
+                font-family: vazir-medium;
+                color: $main-color;
+                border-bottom: 2px solid $main-color;
+                font-size: 20px;
+              }
+            }
+          }
+        }
+      }
+      .box {
+        background-image: url(../images/Slider.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 336px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 80px;
+        gap: 70px;
+        h1 {
+          color: $p-color;
+          font-family: vazir-bold;
+          font-weight: 900;
+          font-size: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+        }
+        .box2 {
+          width: 184px;
+          height: 40px;
+          background-color: $main-color;
+          color: $p-color;
+          border-radius: 8px;
+          font-family: vazir-medium;
+          padding: 6px 30px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end;
+          border: none;
+          font-size: 16px;
+        }
+      }
+      .menu {
+        color: $menu;
+        font-family: vazir-bold;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-bottom: 152px;
+      }
+    }
+    .foods {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .card {
+        width: 287px;
+        height: 160px;
+        border-radius: 8px;
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: $main-color;
+
+        img {
+          width: 240px;
+          height: 240px;
+        }
+
+        .food {
+          width: 155px;
+          height: 48px;
+          border-radius: 4px;
+          background-color: $food-background;
+          font-family: vazir-medium;
+          font-size: 20px;
+          justify-content: center;
+          align-items: flex-end;
+          position: relative;
+          top: 10px;
+          border: none;
+        }
+      }
+    }
+    .about {
+      width: 100%;
+      height: 390px;
+      background-image: url(../images/about.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: space-between;
+      align-self: flex-start;
+      color: $about-p;
+      padding-top: 40px;
+      padding-left: 40px;
+      .about-us {
+        width: 600px;
+        height: 295px;
+        font-family: vazir-medium;
+
+        p {
+          width: 600px;
+          height: 180px;
+          font-size: 20px;
+        }
+
+        h3 {
+          margin-bottom: 20px;
+          font-family: vazir-bold;
+          font-size: 30px;
+        }
+      }
+      button {
+        width: 184px;
+        height: 40px;
+        background-color: transparent;
+        border-radius: 4px;
+        border: 2px solid $p-color;
+        color: $p-color;
+        font-family: vazir-medium;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100%;
+      }
+    }
+    .icons {
+      width: 390px;
+      height: 280px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      .about-icon {
+        width: 392px;
+        height: 136px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .about-i {
+          width: 184px;
+          height: 136px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-wrap: wrap;
+        }
+      }
+    }
+    .tarkhineh {
+      margin-top: 48px;
+      color: $addres;
+      font-family: vair-bold;
+      display: flex;
+      justify-content: center;
+      font-size: 35px;
+      font-weight: 900;
+      margin-bottom: 24px;
+    }
+    .tarkhineh2 {
+      width: 100%;
+      height: 392px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      .card2 {
+        width: 288px;
+        height: 344px;
+        border-radius: 8px;
+        border: 2px solid $border-card2;
+        img {
+          width: 100%;
+          height: 230px;
+        }
+        h3 {
+          margin-top: 15px;
+          font-family: vazir-bold;
+          text-align: center;
+          font-size: 18px;
+          color: $menu;
+        }
+        p {
+          margin-top: 5px;
+          font-family: vazir-light;
+          text-align: $nav-color;
+        }
+      }
+      .card3 {
+        width: 288px;
+        height: 344px;
+        border-radius: 8px;
+        border: 2px solid $border-card2;
+        img {
+          width: 100%;
+          height: 230px;
+        }
+        h3 {
+          margin-top: 15px;
+          font-family: vazir-bold;
+          text-align: center;
+          font-size: 18px;
+          color: $menu;
+        }
+        p {
+          margin-top: 5px;
+          font-family: vazir-light;
+          text-align: $nav-color;
+        }
+      }
+      .card4 {
+        width: 288px;
+        height: 344px;
+        border-radius: 8px;
+        border: 2px solid $border-card2;
+        img {
+          width: 100%;
+          height: 230px;
+        }
+        h3 {
+          margin-top: 15px;
+          font-family: vazir-bold;
+          text-align: center;
+          font-size: 18px;
+          color: $menu;
+        }
+        p {
+          margin-top: 5px;
+          font-family: vazir-light;
+          text-align: $nav-color;
+        }
+      }
+      .card5 {
+        width: 288px;
+        height: 344px;
+        border-radius: 8px;
+        border: 2px solid $border-card2;
+        img {
+          width: 100%;
+          height: 230px;
+        }
+        h3 {
+          margin-top: 15px;
+          font-family: vazir-bold;
+          text-align: center;
+          font-size: 18px;
+          color: $menu;
+        }
+        p {
+          margin-top: 5px;
+          font-family: vazir-light;
+          text-align: $nav-color;
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      height: 419px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      background-image: url(../images/Footer.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 160px;
+      ul {
+        width: 184px;
+        height: 192px;
+        padding: 10px;
+        h3 {
+          margin-bottom: 5px;
+          color: $p-color;
+          font-family: vazir-bold;
+          font-size: 20px;
+        }
+        li {
+          margin-bottom: 13px;
+          color: $footer;
+          font-family: vazir-medium;
+          font-size: 14px;
+          padding: 5px 0px;
+        }
+      }
+      .a {
+        width: 600px;
+        height: 246px;
+
+        .text {
+          color: $p-color;
+          font-family: vazir-bold;
+          font-size: 20px;
+          margin-bottom: 3px;
+        }
+        form {
+          width: 600px;
+          height: 263px;
+          display: grid;
+          grid-template-rows: auto auto auto;
+          grid-template-columns: auto auto;
+          padding: 4px;
+          gap: 7px;
+          color: $footer;
+          .text1 {
+            background-color: transparent;
+            border: 2px solid $footer;
+            color: $footer;
+            font-family: vazir-light;
+            border-radius: 8px;
+          }
+          .text2 {
+            background-color: transparent;
+            border: 2px solid $footer;
+            color: $footer;
+            font-family: vazir-light;
+            border-radius: 8px;
+          }
+          .text3 {
+            background-color: transparent;
+            border: 2px solid $footer;
+            color: $footer;
+            font-family: vazir-light;
+            border-radius: 8px;
+          }
+          .text4 {
+            background-color: transparent;
+            border: 2px solid $footer;
+            color: $footer;
+            font-family: vazir-light;
+            border-radius: 8px;
+            padding: 50px 0px;
+          }
+        }
+        .submit {
+          width: 183px;
+          height: 40px;
+          border-radius: 4px;
+          border: 2px solid $footer;
+          color: $p-color;
+          font-family: vazir-medium;
+          font-size: 14px;
+          margin-right: 68.4%;
+          margin-top: 15px;
+          text-align: center;
+          padding-top: 5px;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

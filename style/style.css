@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: vazir-bold;
+  src: url(../fonts/Vazir-Bold.woff2);
+}
+@font-face {
+  font-family: vazir-light;
+  src: url(../fonts/Vazir-Light.woff2);
+}
+@font-face {
+  font-family: vazir-medium;
+  src: url(../fonts/Vazir-Medium.woff2);
+}
+@font-face {
+  font-family: vazir-thin;
+  src: url(../fonts/Vazir-Thin.woff);
+}
+@font-face {
+  font-family: vazir;
+  src: url(../fonts/Vazir.woff);
+}
+.container {
+  padding: 38px 108px;
+}
+
+body {
+  direction: rtl;
+}
+body main .hero header nav {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .hero header nav .icons {
+  margin-right: 166px;
+}
+body main .hero header nav ul {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+body main .hero header nav ul li {
+  display: flex;
+  align-items: center;
+}
+body main .hero header nav ul li a {
+  font-family: vazir-medium;
+  color: #717171;
+}
+body main .hero header nav ul li .navs {
+  font-family: vazir-medium;
+  color: #417f56;
+  border-bottom: 2px solid #417f56;
+  font-size: 20px;
+}
+body main .hero .box {
+  background-image: url(../images/Slider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 336px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 80px;
+  gap: 70px;
+}
+body main .hero .box h1 {
+  color: #e5f2e9;
+  font-family: vazir-bold;
+  font-weight: 900;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+body main .hero .box .box2 {
+  width: 184px;
+  height: 40px;
+  background-color: #417f56;
+  color: #e5f2e9;
+  border-radius: 8px;
+  font-family: vazir-medium;
+  padding: 6px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: none;
+  font-size: 16px;
+}
+body main .hero .menu {
+  color: #353535;
+  font-family: vazir-bold;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 152px;
+}
+body main .foods {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main .foods .card {
+  width: 287px;
+  height: 160px;
+  border-radius: 8px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #417f56;
+}
+body main .foods .card img {
+  width: 240px;
+  height: 240px;
+}
+body main .foods .card .food {
+  width: 155px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #e1e1e1;
+  font-family: vazir-medium;
+  font-size: 20px;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  top: 10px;
+  border: none;
+}
+body main .about {
+  width: 100%;
+  height: 390px;
+  background-image: url(../images/about.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  color: #d9d9d9;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+body main .about .about-us {
+  width: 600px;
+  height: 295px;
+  font-family: vazir-medium;
+}
+body main .about .about-us p {
+  width: 600px;
+  height: 180px;
+  font-size: 20px;
+}
+body main .about .about-us h3 {
+  margin-bottom: 20px;
+  font-family: vazir-bold;
+  font-size: 30px;
+}
+body main .about button {
+  width: 184px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 2px solid #e5f2e9;
+  color: #e5f2e9;
+  font-family: vazir-medium;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100%;
+}
+body main .icons {
+  width: 390px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body main .icons .about-icon {
+  width: 392px;
+  height: 136px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .icons .about-icon .about-i {
+  width: 184px;
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+body main .tarkhineh {
+  margin-top: 48px;
+  color: #1e1e1e;
+  font-family: vair-bold;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+body main .tarkhineh2 {
+  width: 100%;
+  height: 392px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+body main .tarkhineh2 .card2 {
+  width: 288px;
+  height: 344px;
+  border-radius: 8px;
+  border: 2px solid #cbcbcb;
+}
+body main .tarkhineh2 .card2 img {
+  width: 100%;
+  height: 230px;
+}
+body main .tarkhineh2 .card2 h3 {
+  margin-top: 15px;
+  font-family: vazir-bold;
+  text-align: center;
+  font-size: 18px;
+  color: #353535;
+}
+body main .tarkhineh2 .card2 p {
+  margin-top: 5px;
+  font-family: vazir-light;
+  text-align: #717171;
+}
+body main .tarkhineh2 .card3 {
+  width: 288px;
+  height: 344px;
+  border-radius: 8px;
+  border: 2px solid #cbcbcb;
+}
+body main .tarkhineh2 .card3 img {
+  width: 100%;
+  height: 230px;
+}
+body main .tarkhineh2 .card3 h3 {
+  margin-top: 15px;
+  font-family: vazir-bold;
+  text-align: center;
+  font-size: 18px;
+  color: #353535;
+}
+body main .tarkhineh2 .card3 p {
+  margin-top: 5px;
+  font-family: vazir-light;
+  text-align: #717171;
+}
+body main .tarkhineh2 .card4 {
+  width: 288px;
+  height: 344px;
+  border-radius: 8px;
+  border: 2px solid #cbcbcb;
+}
+body main .tarkhineh2 .card4 img {
+  width: 100%;
+  height: 230px;
+}
+body main .tarkhineh2 .card4 h3 {
+  margin-top: 15px;
+  font-family: vazir-bold;
+  text-align: center;
+  font-size: 18px;
+  color: #353535;
+}
+body main .tarkhineh2 .card4 p {
+  margin-top: 5px;
+  font-family: vazir-light;
+  text-align: #717171;
+}
+body main .tarkhineh2 .card5 {
+  width: 288px;
+  height: 344px;
+  border-radius: 8px;
+  border: 2px solid #cbcbcb;
+}
+body main .tarkhineh2 .card5 img {
+  width: 100%;
+  height: 230px;
+}
+body main .tarkhineh2 .card5 h3 {
+  margin-top: 15px;
+  font-family: vazir-bold;
+  text-align: center;
+  font-size: 18px;
+  color: #353535;
+}
+body main .tarkhineh2 .card5 p {
+  margin-top: 5px;
+  font-family: vazir-light;
+  text-align: #717171;
+}
+body main footer {
+  width: 100%;
+  height: 419px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url(../images/Footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+body main footer ul {
+  width: 184px;
+  height: 192px;
+  padding: 10px;
+}
+body main footer ul h3 {
+  margin-bottom: 5px;
+  color: #e5f2e9;
+  font-family: vazir-bold;
+  font-size: 20px;
+}
+body main footer ul li {
+  margin-bottom: 13px;
+  color: #ededed;
+  font-family: vazir-medium;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+body main footer .a {
+  width: 600px;
+  height: 246px;
+}
+body main footer .a .text {
+  color: #e5f2e9;
+  font-family: vazir-bold;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+body main footer .a form {
+  width: 600px;
+  height: 263px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto;
+  padding: 4px;
+  gap: 7px;
+  color: #ededed;
+}
+body main footer .a form .text1 {
+  background-color: transparent;
+  border: 2px solid #ededed;
+  color: #ededed;
+  font-family: vazir-light;
+  border-radius: 8px;
+}
+body main footer .a form .text2 {
+  background-color: transparent;
+  border: 2px solid #ededed;
+  color: #ededed;
+  font-family: vazir-light;
+  border-radius: 8px;
+}
+body main footer .a form .text3 {
+  background-color: transparent;
+  border: 2px solid #ededed;
+  color: #ededed;
+  font-family: vazir-light;
+  border-radius: 8px;
+}
+body main footer .a form .text4 {
+  background-color: transparent;
+  border: 2px solid #ededed;
+  color: #ededed;
+  font-family: vazir-light;
+  border-radius: 8px;
+  padding: 50px 0px;
+}
+body main footer .a .submit {
+  width: 183px;
+  height: 40px;
+  border-radius: 4px;
+  border: 2px solid #ededed;
+  color: #e5f2e9;
+  font-family: vazir-medium;
+  font-size: 14px;
+  margin-right: 68.4%;
+  margin-top: 15px;
+  text-align: center;
+  padding-top: 5px;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
