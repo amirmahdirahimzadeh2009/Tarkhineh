@@ -44,16 +44,29 @@ body main .hero header nav {
   justify-content: space-between;
   align-items: center;
 }
-body main .hero header nav .icons {
-  margin-right: 166px;
+body main .hero header nav .iconss {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
 }
-body main .hero header nav ul {
+body main .hero header nav .iconss .z {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+body main .hero header nav .navbars {
   width: 100%;
   height: 33px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  margin-right: 250px;
 }
 body main .hero header nav ul li {
   display: flex;
@@ -67,7 +80,6 @@ body main .hero header nav ul li .navs {
   font-family: vazir-medium;
   color: #417f56;
   border-bottom: 2px solid #417f56;
-  font-size: 20px;
 }
 body main .hero .box {
   background-image: url(../images/Slider.png);
@@ -105,7 +117,7 @@ body main .hero .box .box2 {
   border: none;
   font-size: 16px;
 }
-body main .hero p {
+body main .hero .m {
   color: #353535;
   font-family: vazir-bold;
   margin-top: 40px;
@@ -118,6 +130,9 @@ body main .menu {
   justify-content: space-between;
   align-items: center;
   gap: 8px;
+  width: 100%;
+  height: 555px;
+  background-color: #ffffff;
 }
 body main .menu .card1 {
   width: 288px;
@@ -133,6 +148,44 @@ body main .menu .card1 h2 {
   font-family: vazir-bold;
   text-align: center;
 }
+body main .menu .card1 .v {
+  font-family: vazir-light;
+  color: #717171;
+  font-size: 10px;
+  display: inline;
+}
+body main .menu .card1 del {
+  font-family: vazir-light;
+  color: #717171;
+  font-size: 10px;
+  margin-right: 60px;
+  display: inline;
+}
+body main .menu .card1 .off {
+  width: 32px;
+  height: 16px;
+  background-color: #fff2f2;
+  color: #c30000;
+  margin-right: 20px;
+  text-align: center;
+  display: inline;
+  border-radius: 4px;
+  font-family: vazir-light;
+  font-size: 10px;
+}
+body main .menu .card1 .l {
+  font-family: vazir-light;
+  font-size: 10px;
+  color: #717171;
+  display: inline;
+}
+body main .menu .card1 .r {
+  font-family: vazir-medium;
+  font-size: 17px;
+  margin-right: 80px;
+  display: inline;
+  color: #353535;
+}
 body main .menu .card1 button {
   width: 255px;
   height: 40px;
@@ -140,74 +193,194 @@ body main .menu .card1 button {
   background-color: #417f56;
   border: none;
   color: #e5f2e9;
-  font-family: vazir-light;
+  font-family: vazir-bold;
+  margin-top: 30px;
+  margin-right: 13px;
 }
-body main .menu .card2 {
+body main .populars {
+  width: 100%;
+  height: 555px;
+  background-color: #315f41;
+}
+body main .populars .e {
+  font-family: vazir-bold;
+  font-size: 30px;
+  color: #ffffff;
+}
+body main .populars .q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #315f41;
+}
+body main .populars .q .card2 {
   width: 288px;
   height: 433px;
-  border: 2px solid #cbcbcb;
+  border: none;
   border-radius: 8px;
+  background-color: #ffffff;
 }
-body main .menu .card2 img {
-  width: 100%;
-  height: 256px;
-}
-body main .menu .card2 h2 {
+body main .populars .q .card2 h2 {
   font-family: vazir-bold;
   text-align: center;
 }
-body main .menu .card2 button {
+body main .populars .q .card2 .v {
+  font-family: vazir-light;
+  color: #717171;
+  font-size: 10px;
+  display: inline;
+}
+body main .populars .q .card2 del {
+  font-family: vazir-light;
+  color: #717171;
+  font-size: 10px;
+  margin-right: 60px;
+  display: inline;
+}
+body main .populars .q .card2 .off {
+  width: 32px;
+  height: 16px;
+  background-color: #fff2f2;
+  color: #c30000;
+  margin-right: 20px;
+  text-align: center;
+  display: inline;
+  border-radius: 4px;
+  font-family: vazir-light;
+  font-size: 10px;
+}
+body main .populars .q .card2 .l {
+  font-family: vazir-light;
+  font-size: 10px;
+  color: #717171;
+  display: inline;
+}
+body main .populars .q .card2 .r {
+  font-family: vazir-medium;
+  font-size: 17px;
+  margin-right: 80px;
+  display: inline;
+  color: #353535;
+}
+body main .populars .q .card2 button {
   width: 255px;
   height: 40px;
   border-radius: 4px;
   background-color: #417f56;
   border: none;
   color: #e5f2e9;
-  font-family: vazir-light;
+  font-family: vazir-bold;
+  margin-top: 30px;
+  margin-right: 13px;
 }
-body main .menu .card3 {
+body main .b {
+  color: #353535;
+  font-family: vazir-bold;
+  font-size: 30px;
+  margin-top: 70px;
+}
+body main .world {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .world .card3 {
   width: 288px;
   height: 433px;
   border: 2px solid #cbcbcb;
   border-radius: 8px;
+  background-color: #ffffff;
+  margin-top: -30px;
 }
-body main .menu .card3 img {
-  width: 100%;
-  height: 256px;
-}
-body main .menu .card3 h2 {
+body main .world .card3 h2 {
   font-family: vazir-bold;
   text-align: center;
 }
-body main .menu .card3 button {
+body main .world .card3 .v {
+  font-family: vazir-light;
+  color: #717171;
+  font-size: 10px;
+  display: inline;
+}
+body main .world .card3 del {
+  font-family: vazir-light;
+  color: #717171;
+  font-size: 10px;
+  margin-right: 60px;
+  display: inline;
+}
+body main .world .card3 .off {
+  width: 32px;
+  height: 16px;
+  background-color: #fff2f2;
+  color: #c30000;
+  margin-right: 20px;
+  text-align: center;
+  display: inline;
+  border-radius: 4px;
+  font-family: vazir-light;
+  font-size: 10px;
+}
+body main .world .card3 .l {
+  font-family: vazir-light;
+  font-size: 10px;
+  color: #717171;
+  display: inline;
+}
+body main .world .card3 .r {
+  font-family: vazir-medium;
+  font-size: 17px;
+  margin-right: 80px;
+  display: inline;
+  color: #353535;
+}
+body main .world .card3 button {
   width: 255px;
   height: 40px;
   border-radius: 4px;
   background-color: #417f56;
   border: none;
   color: #e5f2e9;
-  font-family: vazir-light;
-}
-body main .menu .card4 {
-  width: 288px;
-  height: 433px;
-  border: 2px solid #cbcbcb;
-  border-radius: 8px;
-}
-body main .menu .card4 img {
-  width: 100%;
-  height: 256px;
-}
-body main .menu .card4 h2 {
   font-family: vazir-bold;
-  text-align: center;
+  margin-top: 30px;
+  margin-right: 13px;
 }
-body main .menu .card4 button {
-  width: 255px;
+body main .box30 {
+  display: flex;
+  justify-content: center;
+}
+body main .box30 .box0 {
+  color: #315f41;
+  font-family: vazir-bold;
+  margin-top: 20px;
+  font-size: 17px;
+  width: 184px;
   height: 40px;
-  border-radius: 4px;
-  background-color: #417f56;
-  border: none;
-  color: #e5f2e9;
-  font-family: vazir-light;
+  border: 2px solid #315f41;
 }
+body main .ekbatan {
+  color: #353535;
+  font-family: vazir-bold;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-right: 44.7%;
+}
+/*body main .box9 {
+  width: 810px;
+  height: 130px;
+  border: 2px solid #315f41;
+  margin-right: 24%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+body main .box9 .x {
+  display: inline;
+}
+body main .box9 .x p {
+  font-family: vazir-light;
+  font-size: 17px;
+  color: #353535;
+  margin-left: 40px;
+}*/

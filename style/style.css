@@ -40,30 +40,42 @@ body main .hero header nav {
   justify-content: space-between;
   align-items: center;
 }
-body main .hero header nav .icons {
-  margin-right: 166px;
+body main .hero header nav .iconss {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
 }
-body main .hero header nav ul {
+body main .hero header nav .iconss .z {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+body main .hero header nav .navbars {
   width: 100%;
   height: 33px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  margin-right: 250px;
 }
-body main .hero header nav ul li {
+body main .hero header nav .navbars li {
   display: flex;
   align-items: center;
 }
-body main .hero header nav ul li a {
+body main .hero header nav .navbars li a {
   font-family: vazir-medium;
   color: #717171;
 }
-body main .hero header nav ul li .navs {
+body main .hero header nav .navbars li .navs {
   font-family: vazir-medium;
   color: #417f56;
   border-bottom: 2px solid #417f56;
-  font-size: 20px;
 }
 body main .hero .box {
   background-image: url(../images/Slider.png);
@@ -356,48 +368,62 @@ body main footer .a .text {
 body main footer .a form {
   width: 600px;
   height: 263px;
-  display: grid;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: auto auto;
-  padding: 4px;
   gap: 7px;
   color: #ededed;
 }
-body main footer .a form .text1 {
-  background-color: transparent;
-  border: 2px solid #ededed;
-  color: #ededed;
-  font-family: vazir-light;
-  border-radius: 8px;
+body main footer .a form .texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
 }
-body main footer .a form .text2 {
+body main footer .a form .texts .text1 {
   background-color: transparent;
-  border: 2px solid #ededed;
+  border: 2px solid #717171;
   color: #ededed;
   font-family: vazir-light;
   border-radius: 8px;
+  padding: 10px 90px;
 }
-body main footer .a form .text3 {
+body main footer .a form .texts .text2 {
   background-color: transparent;
-  border: 2px solid #ededed;
+  border: 2px solid #717171;
   color: #ededed;
   font-family: vazir-light;
   border-radius: 8px;
+  padding: 10px 90px;
+  display: flex;
+  justify-content: flex-start;
 }
-body main footer .a form .text4 {
+body main footer .a form .texts .text3 {
   background-color: transparent;
-  border: 2px solid #ededed;
+  border: 2px solid #717171;
   color: #ededed;
   font-family: vazir-light;
   border-radius: 8px;
-  padding: 50px 0px;
+  padding: 10px 90px;
+}
+body main footer .a form .t {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+body main footer .a form .t .text4 {
+  background-color: transparent;
+  border: 2px solid #717171;
+  color: #ededed;
+  font-family: vazir-light;
+  border-radius: 8px;
+  padding: 75px 50px;
+  margin-right: 360px;
+  margin-top: -192px;
 }
 body main footer .a .submit {
   width: 183px;
   height: 40px;
   border-radius: 4px;
-  border: 2px solid #ededed;
-  color: #e5f2e9;
+  border: 2px solid #717171;
+  color: #ededed;
   font-family: vazir-medium;
   font-size: 14px;
   margin-right: 68.4%;
