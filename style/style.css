@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   list-style-type: none;
 }
 
@@ -46,6 +45,7 @@ body main .hero header nav .iconss {
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
+  text-decoration: none;
 }
 body main .hero header nav .iconss .z {
   width: 100%;
@@ -54,6 +54,9 @@ body main .hero header nav .iconss .z {
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
+}
+body main .hero header nav .iconss .z li a {
+  text-decoration: none;
 }
 body main .hero header nav .navbars {
   width: 100%;
@@ -71,46 +74,38 @@ body main .hero header nav .navbars li {
 body main .hero header nav .navbars li a {
   font-family: vazir-medium;
   color: #717171;
+  text-decoration: none;
 }
 body main .hero header nav .navbars li .navs {
   font-family: vazir-medium;
   color: #417f56;
   border-bottom: 2px solid #417f56;
 }
-body main .hero .box {
-  background-image: url(../images/Slider.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 336px;
-  display: flex;
+body main .hero .carousel {
+  overflow: hidden;
+}
+body main .hero .carousel .carousel-inner .carousel-item .carousel-caption {
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  padding-top: 80px;
-  gap: 70px;
+  flex-direction: row;
 }
-body main .hero .box h1 {
-  color: #e5f2e9;
+body main .hero .carousel .carousel-inner .carousel-item .carousel-caption h5 {
   font-family: vazir-bold;
-  font-weight: 900;
   font-size: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 5%;
 }
-body main .hero .box .box2 {
+body main .hero .carousel .carousel-inner .carousel-item .carousel-caption button {
   width: 184px;
   height: 40px;
-  background-color: #417f56;
-  color: #e5f2e9;
+  padding: 8px 16px;
   border-radius: 8px;
-  font-family: vazir-medium;
-  padding: 6px 30px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
   border: none;
+  background: #417f56;
+  color: #fff;
+  font-family: vazir-medium;
+  font-weight: 500;
   font-size: 16px;
 }
 body main .hero .menu {
@@ -236,7 +231,7 @@ body main .tarkhineh2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 14px;
 }
 body main .tarkhineh2 .card2 {
   width: 288px;
@@ -414,9 +409,9 @@ body main footer .a form .t .text4 {
   color: #ededed;
   font-family: vazir-light;
   border-radius: 8px;
-  padding: 75px 50px;
+  padding: 75px 30px;
   margin-right: 360px;
-  margin-top: -192px;
+  margin-top: -210px;
 }
 body main footer .a .submit {
   width: 183px;
